@@ -1,0 +1,18 @@
+.container {
+    max-width: 1200px;
+  }
+  
+  li {
+    display: inline-block;
+    align-items: center;
+    padding-inline: 7%;
+  }
+  
+  .tienda {
+    width: 90%;
+    height: 330px;
+    object-fit: contain;
+  };
+  .pricing-header {
+    max-width: 700px;
+  };
