@@ -1,0 +1,9 @@
+@mixin ico {
+    display: inline-block;
+    align-items: center;
+    padding-inline: 7%;
+  }
+
+.ico{
+    @include ico;
+}  

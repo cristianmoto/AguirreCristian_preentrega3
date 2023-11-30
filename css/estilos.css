@@ -63,6 +63,15 @@ body {
   fill: currentColor;
 }
 
+.boton {
+  text-align: center;
+  background-color: #292726;
+  opacity: 1;
+  color: #f3f0ef;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
 .container {
   max-width: 1200px;
 }
@@ -81,6 +90,13 @@ li {
 
 .pricing-header {
   max-width: 700px;
+}
+
+.pie {
+  text-align: center;
+  background-color: #292726;
+  opacity: 1;
+  color: #f3f0ef;
 }
 
 .ico {
