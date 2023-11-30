@@ -23,7 +23,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"
     />
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
 
     <link href="./css/estilos.css" rel="stylesheet" />
@@ -64,15 +64,16 @@
             >
           </nav>
         </div>
-
+        <div data-aos="fade-right">
         <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
           <img class="logo-imagen" src="./img/logoAdidas.png" alt="adidas original"/>
         </div>
+      </div>
       </header>
 
       <main>
         <h2 class="card-texto">Nuestra historia...</h2>
-        <div class="card"></div>
+       
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">1950</h5>
@@ -102,7 +103,8 @@
             allowfullscreen
           ></iframe>
         </div>
-        <div class="card">
+     
+       <div class="card">
           <div class="card-body">
             <h5 class="card-title">1960</h5>
             <p class="card-text">
@@ -286,7 +288,7 @@
         </div>
       </main>
 
-      <footer class="bg-dark text-center text-white">
+      <footer class="footer-color text-center text-white">
         <div class="container p-3">
           <section class="mb-4">
             <li class="li">
@@ -330,10 +332,14 @@
         </div>
       </footer>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
+      crossorigin="anonymous";     
     ></script>
   </body>
 </html>
